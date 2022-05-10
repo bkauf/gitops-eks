@@ -1,7 +1,7 @@
 FROM node:14.16.1-alpine
 
 #RUN apk update & install python
-RUN apk update && apk add python3 make g++
+RUN apk update 
 
 # Create app directory
 RUN mkdir -p /usr/src/app
